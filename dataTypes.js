@@ -4,7 +4,7 @@
 
 // DataTypes
 // 1. Primitive 
-// 2. object
+// 2. Non Primitive  (object)
 
 // 1. Primitive  value
 
