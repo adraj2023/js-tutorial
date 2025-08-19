@@ -1,3 +1,4 @@
+// ================= Conversions ==========
 let score = "28"
 
 // console.log(typeof score);
@@ -39,10 +40,29 @@ let booleanLoggeIn = Boolean(isLoggedIn);
 
 let someNumber = 22
 let stringNumber = String (someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
 
+// ============== Orations ==============
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2**3); //(2 power 3)
+// console.log(2%3); //(modul)
+
+// let str1 = "Hello";
+// let str2 = " Raj"
+// let str3 = str1 + str2;
+
+// console.log(str3);
+
+console.log(1 + "2");
+console.log("1" + 2);
+console.log("1" + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2");
 
 
 
