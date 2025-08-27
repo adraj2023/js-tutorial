@@ -19,13 +19,23 @@ const hundred = 1000000
 // +++++++++++++++++ Maths +++++++++++++++++
 console.log(Math);
 
-console.log(Math.abs(-4)); // convert value in to positive value
-console.log(Math.round(4.6));
-console.log(Math.ceil(4.2)); // upper value
-console.log(Math.floor(4.9)); // lower value
-console.log(Math.sqrt(36));
-console.log(Math.pow(2, 4));
-console.log(Math.max(2, 4, 8, 6));
-console.log(Math.min(2, 4, 8, 6));
+// console.log(Math.abs(-4)); // convert value in to positive value
+// console.log(Math.round(4.6));
+// console.log(Math.ceil(4.2)); // upper value
+// console.log(Math.floor(4.9)); // lower value
+// console.log(Math.sqrt(36));
+// console.log(Math.pow(2, 4));
+// console.log(Math.max(2, 4, 8, 6));
+// console.log(Math.min(2, 4, 8, 6));
+
+
+console.log(Math.random());
+console.log((Math.random()*10) + 1);
+console.log(Math.floor(Math.random()*10) + 1);
+
+const min = 10
+const max = 20
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min);
 
 
